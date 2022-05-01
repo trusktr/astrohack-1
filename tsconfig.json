@@ -1,0 +1,34 @@
+{
+	"compilerOptions": {
+		// Solid specific settings
+		"jsx": "preserve",
+		"jsxImportSource": "solid-js",
+		// Enable top-level await, and other modern ESM features.
+		"target": "ESNext",
+		"module": "ESNext",
+		// Enable node-style module resolution, for things like npm package imports.
+		"moduleResolution": "node",
+		// Enable JSON imports.
+		"resolveJsonModule": true,
+		// Enable stricter transpilation for better output.
+		"isolatedModules": true,
+		// Add type definitions for our Vite runtime.
+		"types": ["vite/client"],
+
+		"removeComments": true,
+
+		// Type enforcements
+		"strict": true,
+		"allowUnreachableCode": false,
+		"allowUnusedLabels": true,
+		"exactOptionalPropertyTypes": true,
+		"noFallthroughCasesInSwitch": true,
+		"noImplicitOverride": true,
+		"noImplicitReturns": true,
+		"noUncheckedIndexedAccess": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"useUnknownInCatchVariables": true,
+		"importsNotUsedAsValues": "error"
+	}
+}
